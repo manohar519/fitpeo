@@ -1,0 +1,16 @@
+.min-grid-4{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.min-grid-4 span{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.min-grid-4 span p{
+    margin-top: 12px;
+   
+}

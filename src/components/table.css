@@ -1,0 +1,29 @@
+.table-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .table-card table {
+    min-width: 650px;
+  }
+  
+  .name-cell {
+    display: flex;
+    align-items: center;
+  }
+  
+  .name-cell .avatar {
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .table-card {
+      overflow-x: auto;
+    }
+  
+    .table-card table {
+      width: 100%;
+    }
+  }
+  

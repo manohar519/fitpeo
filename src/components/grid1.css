@@ -1,0 +1,24 @@
+
+.dashboard-container {
+  margin-top: 16px;
+}
+
+.card-content .icon {
+  margin-left: 10px;
+}
+
+.icon.green {
+  background-color: rgb(146, 248, 146);
+}
+
+.icon.blue {
+  background-color: rgb(174, 174, 254);
+}
+
+.icon.orange {
+  background-color: rgb(217, 153, 26);
+}
+
+.icon.red {
+  background-color: rgb(225, 156, 156);
+}

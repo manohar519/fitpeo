@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.part1 {
+  flex: 0 0 75%;
+}
+
+.part2 {
+  flex: 0 0 25%;
+}
+@media (max-width: 1200px) {
+  .part1 {
+    flex: 0 0 70%;
+  }
+  .part2 {
+    flex: 0 0 30%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .part1, .part2 {
+    flex: 0 100%;
+    gap: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column;
+  }
+  .part1, .part2 {
+    flex: 0 100%;
+  }
+}
